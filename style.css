@@ -1,0 +1,85 @@
+ul > li {
+  list-style: none;
+}
+.menu {
+  list-style: circle;
+}
+.sectionlinks {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+.sectionlinks li {
+  margin-left: 656px;
+}
+a.box:link,
+a.box:visited {
+  text-decoration: none;
+  background-color: lightgreen;
+  border: 1px solid;
+  color: black;
+  display: block;
+  width: 285px;
+  text-align: center;
+}
+a:hover,
+a:active {
+  background-color: red;
+  color: purple;
+  cursor: pointer;
+}
+header li:nth-child(1) {
+  font-style: bold;
+  font-size: 40px;
+}
+header li:nth-child(2) {
+  font-style: bold;
+  font-size: 35px;
+}
+header li:nth-child(3) {
+  font-style: bold;
+  font-size: 30px;
+}
+header li:nth-child(4) {
+  font-style: bold;
+  font-size: 25px;
+}
+header li:nth-child(5) {
+  font-style: bold;
+  font-size: 20px;
+}
+header li:nth-child(6) {
+  font-style: bold;
+  font-size: 15px;
+}
+header li:nth-child(odd) {
+  background-color: gray;
+}
+header li:nth-child(odd):hover,
+header li:nth-child(odd):active {
+  background-color: teal;
+  cursor: pointer;
+}
+header li:nth-child(even):hover,
+header li:nth-child(even):active {
+  background-color: wheat;
+  cursor: pointer;
+}
+header li {
+  text-align: center;
+  width: 200px;
+  margin-left: 800px;
+}
+img {
+  width: 100px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.username {
+  font-weight: bold;
+  margin-top: 10px;
+}
