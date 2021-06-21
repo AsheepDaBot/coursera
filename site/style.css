@@ -24,8 +24,8 @@ a.box:visited {
   width: 285px;
   text-align: center;
 }
-a:hover,
-a:active {
+a.box:hover,
+a.box:active {
   background-color: red;
   color: purple;
   cursor: pointer;
@@ -72,14 +72,18 @@ header li {
   width: 200px;
   margin-left: 800px;
 }
+#toplink {
+  margin-bottom: 0px;
+}
 img {
   width: 100px;
   border-radius: 50px;
   float: left;
   margin-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 .username {
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
